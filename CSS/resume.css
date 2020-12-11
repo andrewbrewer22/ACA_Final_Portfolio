@@ -1,0 +1,627 @@
+body
+{
+    background-color: rgb(250, 234, 212);
+}
+
+/* Micro */
+@media(min-width: 300px)
+{
+    .title
+{
+    background-color: rgb(223, 205, 182);
+
+    font-size: 35pt;
+    text-align: center;
+
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .resume-content
+    {
+        font-size: 8pt;
+
+    background-color: burlywood;
+
+    justify-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    grid-template-rows: 50% 50%;
+
+    height: 80%;
+    }
+
+.profile
+{
+    grid-column-start: 1;
+    grid-row-start: 1;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic
+{
+    grid-column-start: 2;
+    grid-row-start: 1;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.picture
+{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-info
+{
+    grid-column-start: 3;
+    grid-row-start: 1;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.education
+{
+    /* background-color: burlywood; */
+
+    grid-column-start: 1;
+    grid-row-start: 2;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills
+{
+    /* background-color: burlywood; */
+
+    grid-column-start: 2;
+    grid-row-start: 2;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.expertise
+{
+    /* background-color: burlywood; */
+
+    grid-column-start: 3;
+    grid-row-start: 2;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experience
+{
+    font-size: 8pt;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+/* Mobile */
+@media(min-width: 576px)
+{
+    .title
+{
+    background-color: rgb(223, 205, 182);
+
+    font-size: 35pt;
+    text-align: center;
+
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .resume-content
+    {
+        font-size: 8pt;
+
+    background-color: burlywood;
+
+    justify-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    grid-template-rows: 50% 50%;
+
+    height: 80%;
+    }
+
+.profile
+{
+    grid-column-start: 1;
+    grid-row-start: 1;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic
+{
+    grid-column-start: 2;
+    grid-row-start: 1;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.picture
+{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-info
+{
+    grid-column-start: 3;
+    grid-row-start: 1;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.education
+{
+    /* background-color: burlywood; */
+
+    grid-column-start: 1;
+    grid-row-start: 2;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills
+{
+    /* background-color: burlywood; */
+
+    grid-column-start: 2;
+    grid-row-start: 2;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.expertise
+{
+    /* background-color: burlywood; */
+
+    grid-column-start: 3;
+    grid-row-start: 2;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experience
+{
+    font-size: 8pt;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+/* Tablet */
+@media(min-width: 700px)
+{
+    .title
+{
+    background-color: rgb(223, 205, 182);
+
+    font-size: 40pt;
+    text-align: center;
+
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .resume-content
+    {
+        font-size: 10pt;
+
+    background-color: burlywood;
+
+    justify-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    grid-template-rows: 50% 50%;
+
+    height: 80%;
+    }
+
+.profile
+{
+    grid-column-start: 1;
+    grid-row-start: 1;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic
+{
+    grid-column-start: 2;
+    grid-row-start: 1;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.picture
+{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-info
+{
+    grid-column-start: 3;
+    grid-row-start: 1;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.education
+{
+    /* background-color: burlywood; */
+
+    grid-column-start: 1;
+    grid-row-start: 2;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills
+{
+    /* background-color: burlywood; */
+
+    grid-column-start: 2;
+    grid-row-start: 2;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.expertise
+{
+    /* background-color: burlywood; */
+
+    grid-column-start: 3;
+    grid-row-start: 2;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experience
+{
+    font-size: 10pt;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+/* Desktop */
+@media(min-width: 992px)
+{
+    .title
+{
+    background-color: rgb(223, 205, 182);
+
+    font-size: 50pt;
+    text-align: center;
+
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .resume-content
+{
+    font-size: 14pt;
+
+    background-color: burlywood;
+
+    justify-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    grid-template-rows: 50% 50%;
+
+    height: 80%;
+}
+
+.profile
+{
+    grid-column-start: 1;
+    grid-row-start: 1;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic
+{
+    grid-column-start: 2;
+    grid-row-start: 1;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.picture
+{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-info
+{
+    grid-column-start: 3;
+    grid-row-start: 1;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.education
+{
+    /* background-color: burlywood; */
+
+    grid-column-start: 1;
+    grid-row-start: 2;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills
+{
+    /* background-color: burlywood; */
+
+    grid-column-start: 2;
+    grid-row-start: 2;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.expertise
+{
+    /* background-color: burlywood; */
+
+    grid-column-start: 3;
+    grid-row-start: 2;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experience
+{
+font-size: 14pt;
+
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+.index
+{
+    padding-top: 5%;
+    font-size: 15;
+    text-align: center;
+}
